@@ -23,13 +23,16 @@ h2 {display:none;}
 }
 
 a:link, a:active, a:visited{
+	text-decoration: none;
 	color: white;
 	outline: none;
 	font-weight: bold;
 }
 
 a:hover{
+	text-decoration: none;
 	color: aqua;
+	
 }
 
 
