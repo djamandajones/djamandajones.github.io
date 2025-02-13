@@ -1,0 +1,47 @@
+html,body { background-color: #000; color: #FFF; font-family: "lucida sans";}
+h1 {display:none;}
+h2 {display:none;}
+#amandaImage { display: none;}
+
+#container {
+	height: 618px;
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	background-position:center; 
+	}
+
+#links{
+	width: 250px;
+	position:relative;
+	left: 52.2%;
+	top: 45%;
+}
+
+#links li{
+	display:block;
+	height: 25px;
+}
+
+a:link, a:active, a:visited{
+	color: white;
+	outline: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: aqua;
+}
+
+
+#copyright{
+	text-align: center;
+	color: #333;
+	font-size: 0.7em;
+}
+
+#copyright a:link, #copyright a:active, #copyright a:visited{
+	color: #333;
+}
+#copyright a:hover{
+	color: #4e5b6c;
+}
